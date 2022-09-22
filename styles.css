@@ -7,6 +7,7 @@
     --gray: #465862;
     --unit: 10px;
     --container-width: 650px;
+    --random: white;
   }
   
   body {
@@ -68,6 +69,7 @@
   .cell.red { background-color: var(--red); }
   .cell.yellow { background-color: var(--yellow); }
   .cell.purple { background-color: var(--purple); }
+  .cell.random { background-color: var(--random); }
   
   .row:nth-child(1) { --delay: 1; --offset: 150px }
   .row:nth-child(2) { --delay: 2; --offset: -100px }
