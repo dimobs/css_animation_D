@@ -7,7 +7,7 @@
     --gray: #465862;
     --unit: 10px;
     --container-width: 650px;
-    --random: white;
+    --random: rgb(184, 169, 169);
   }
   
   body {
