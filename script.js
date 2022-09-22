@@ -8,7 +8,8 @@ container.addEventListener("click", () => {
   const rows = container.querySelectorAll(".row")
 
   const lastRow = rows[rows.length - 1]
+
   lastRow.addEventListener("animationend", () => {
     container.classList.remove("slide")
   })
-});
+})
