@@ -11,4 +11,4 @@ container.addEventListener("click", () => {
   lastRow.addEventListener("animationend", () => {
     container.classList.remove("slide")
   })
-})
+});
